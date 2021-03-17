@@ -3,7 +3,7 @@ export default class Circle {
         this.mouse = animation.mouse;
         this.ctx = animation.ctx;
         this.canvas = animation.canvas;
-        this.radius = 5 + Math.random() * 6;
+        this.radius = 4 + Math.random() * 6;
         this.position = {
             x: this.radius + Math.floor(Math.random() * (this.canvas.width - (2 * this.radius))),
             y: this.radius + Math.floor(Math.random() * (this.canvas.height - (2 * this.radius)))
